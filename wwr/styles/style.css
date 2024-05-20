@@ -33,20 +33,20 @@ main section{
 /* add background color to the following*/
 
 body{
-    background-color: #E26E3C
+    background-color: #d1815e
 }
 
 header{
-    background-color: #E26E3C
+    background-color: #d1815e
 }
 
 nav a:hover{
-    background-color: #E26E3C;
+    background-color: #EBEBEB;
     color: #EBEBEB;
 }
 
 .book{
-    background-color: #3894A8; 
+    background-color: #61858d; 
     color: #493843
 }
 
@@ -74,11 +74,11 @@ footer p{
 
 
 #background{
-    background-color:#3894A8 
+    background-color:#61858d
 }
 
 .msg{
-    background-color:#3894A8 
+    background-color:#61858d
 }
 
 footer{
