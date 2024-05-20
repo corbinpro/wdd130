@@ -33,20 +33,20 @@ main section{
 /* add background color to the following*/
 
 body{
-    background-color: #d1815e
+    background-color: #61858d
 }
 
 header{
-    background-color: #d1815e
+    background-color: #61858d
 }
 
 nav a:hover{
-    background-color: #EBEBEB;
+    background-color: #d1815e;
     color: #EBEBEB;
 }
 
 .book{
-    background-color: #61858d; 
+    background-color: #d1815e; 
     color: #493843
 }
 
@@ -55,17 +55,17 @@ nav a:hover{
     color: #493843
 }
 .book:hover{
-    background-color:#3894A8;
+    background-color:#d1815e;
     color: #EBEBEB
 }
 
 .join:hover{
-    background-color:#3894A8;
+    background-color:#d1815e;
     color: #EBEBEB
 }
 
 footer p a:hover{
-    color: #EBEBEB
+    color: #d1815e
 }
 
 footer p{
@@ -78,11 +78,11 @@ footer p{
 }
 
 .msg{
-    background-color:#61858d
+    background-color:#EBEBEB
 }
 
 footer{
-    background-color: #E26E3C;
+    background-color: #EBEBEB;
     color: #493843
 }
 
@@ -91,7 +91,7 @@ footer a{
 }
 
 .home-title{
-    color: #493843;
+    color: #d1815e;
 }
 
 h4{
