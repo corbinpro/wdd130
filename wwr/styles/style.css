@@ -37,7 +37,9 @@ body{
 }
 
 header{
-    background-color: #61858d
+    background-color: #61858d;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 nav a:hover{
