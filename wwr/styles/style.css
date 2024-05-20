@@ -110,3 +110,12 @@ h4{
     width: 80px;
 }
            
+.para{
+    border:5px #EBEBEB;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.img{
+    margin: 30px
+}
