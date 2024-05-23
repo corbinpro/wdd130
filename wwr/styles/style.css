@@ -129,3 +129,8 @@ h4{
 .img{
     margin: 30px
 }
+
+.logo{
+    width: 80px;
+    border-radius: 20%;
+}
