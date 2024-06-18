@@ -312,11 +312,6 @@ main section img{
     border-radius: 20px;
 }
 
-@media (max-width: 768px) {
-    .river-img {
-        max-width: 90%; /* Adjust for smaller screens */
-    }
-}
 
 
 @media screen and (max-width: 900px) {
