@@ -225,7 +225,7 @@ h4 {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.card-img:hover {
+.card-img, .individual-img:hover {
     opacity: .6;
     transform: scale(1.1);
 }
@@ -275,6 +275,48 @@ main section img{
     grid-row:6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+#title{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    text-align: center;
+    border:#493843 4px solid;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #EBEBEB;
+    color: #493843;
+}
+
+.river-img, .individual-img {
+    max-width: 90%;
+    height: auto;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    text-align: center;
+
+}
+
+.river-img{
+    background-color: #EBEBEB;
+    border: solid 2px #493843;
+    border-radius: 20px;
+}
+
+.individual-img {
+    border: 5px solid #493843;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .river-img {
+        max-width: 90%; /* Adjust for smaller screens */
+    }
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
