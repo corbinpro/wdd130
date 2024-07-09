@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Righteous&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 4rem;
+  margin: 0;
+  color: #ffffff;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+p {
+  color: #cccccc;
+  font-size: 1.2rem;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  border: none;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+header nav a.contact {
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+header nav a.contact:hover {
+  background-color: #ffffff;
+  color: #121212;
+}
