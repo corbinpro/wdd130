@@ -1,8 +1,41 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Righteous&display=swap');
 
+.logo {
+  width: 80px;
+  border-radius: 20%;
+  padding-top: 5px;
+  margin-left: 3vw;
+  margin-right: 100vw;
+}
+
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+.title{
+  font-family: 'EB Garamond', Garamond, serif;
+  font-size: 2em;
+  font-style: normal;
+  margin-top: 10px;
+}
+
+.intro_home {
+  font-family: 'EB Garamond', Garamond, serif;
+  font-size: 1.5em;
+  font-style: normal;
+  margin-top: 10px;
+}
+
+.home_image {
+  width: 100%;
+  height: auto;
+}
+     
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'EB Garamond', Garamond, serif;
   color: #fff;
   background-color: #121212;
   margin: 0;
@@ -10,13 +43,14 @@ body {
 }
 
 header {
-  background-color: #1e1e1e;
+  font-family: 'EB Garamond', Garamond, serif;
+  background-color: #B6997F;
   padding: 20px;
   text-align: center;
 }
 
 header h1 {
-  font-family: 'Righteous', cursive;
+  font-family: 'EB Garamond', Garamond, serif;
   font-size: 4rem;
   margin: 0;
   color: #ffffff;
@@ -42,6 +76,7 @@ main {
 }
 
 h2 {
+  font-family: 'EB Garamond', Garamond, serif;
   color: #ffffff;
   font-size: 2rem;
   margin-top: 0;
